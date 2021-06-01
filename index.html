@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id='title' class='title'>
+  <h1>Raunak Bhagat</h1>
+  <h2>Software Engineering - Computer Science and Mathematics</h2>
+
+  <img src="./img/main.png" alt="Raunak Bhagat">
+</div>
+
+<div id='body' class=body>
+  <div id='about_me' class='section'>
+    <h3>About Me</h3>
+    <p>
+      I'm a 4th year Computer Science and Mathematics Student at UBC, Vancouver.<br>
+      My interests include systems software design, backend software development, applied mathematics, and applications of technology in the biomedical field.<br>
+      You can view my resumé <a href='https://google.com'>here</a>.
+    </p>
+    <p>
+      However, I'm assuming you're here to look at more than just my resumé; you want to get to know me more in-depth.<br>
+      So I'll be using this page as a repository for just blabbering on about myself and some of the things I'm working on that I find super neat.
+    </p>
+  </div>
+  
+  <hr size='10' noshade>
+  
+  <div id='education' class='section'>
+    <h3>Education</h3>
+    <p>
+      University of British Columbia, Vancouver, Canada<br>
+      B.Sc., Combined Major in Computer Science and Mathematics<br>
+      GPA: 81.1%
+    </p>
+    <p>
+      Please keep in mind that university is more than just grades; I want to talk more about some of the courses that I have taken that have genuinely intrigued me.<br>
+      In fact, I've blabbed on so much about my courses so much, I've put them on a separate page.<br>
+      You can find them <a href='https://google.com'>here</a>.
+    </p>
+  </div>
+  
+  <hr size='10' noshade>
+  
+  <div id='work_experience' class='section'>
+    <h3>Work Experience</h3>
+
+    <div id='ontraccr' class='work_experience'>
+      <h4>Ontraccr Technologies, Inc.</h4>
+      <h5>
+        Full-Stack Software Engineering Intern<br>
+        May 2021 - Aug 2021<br>
+        <a href='https://www.ontraccr.com/'>Ontraccr Technologies, Inc.</a>
+      </h5>
+      <p>
+        Ontraccr is a startup based in Vancouver, British Columbia which provides an easy-to-use time-management application for construction companies.<br>
+        The construction industry is a space in which the power and ease of technology is not quite present.<br>
+        Many companies in this field stick to outdated methodologies for managing projects, and these outdated behaviours have significant negative impacts on their efficiencies.<br>
+        This is where Ontraccr comes in; it's a web-application + mobile-application architecture in which managers can more easily communicate with their on-premise workers, assign tasks, and manage productivity.
+      </p>
+      <p>
+        Some of the things that I have done so far:
+      </p>
+      <ul>
+        <li>
+          Implemented feature to recursively move and archive folders/files in the in-app file-system
+        </li>
+        <li>
+          Implementing a "divisions" feature to restrict access to folders based off user's position in company
+        </li>
+        <li>
+          Performing integration of Typescript into existing Javascript backend codebase to increase code maintainability and allow for warnings/errors to be caught during compile-time rather than runtime
+        </li>
+        <li>
+          Introduced linters and coding-style configuration files (ESLint + Prettier) to force an agreed-upon style on the backend codebase for cleaner code maintainability + readability
+        </li>
+      </ul>
+    </div>
+  
+    <hr>
+  
+    <div id='ubc_bionics' class='work_experience'>
+      <h4>UBC Bionics; Student Design Team</h4>
+      <h5>
+        Lead Systems Software Engineer<br>
+        Feb 2019 - Current<br>
+        <a href='https://ubcbionics.com/'>https://ubcbionics.com/</a>
+      </h5>
+      <p>
+        asdf
+      </p>
+      <ul>
+        <li>asdf</li>
+      </ul>
+    </div>
+  
+    <hr>
+
+    <div id='samsung_electronics_canada' class='work_experience'>
+      <h4>Samsung Electronics, Canada</h4>
+      <h5>
+        Junior Software Testing Intern<br>
+        Sep 2019 - Apr 2020<br>
+        <a href='https://www.samsungknox.com/en'>Samsung Knox</a>
+      </h5>
+      <p>
+        Samsung obviously doesn't need any introduction, but the team I was working with specifically worked closely with B2B services that Samsung provides to enterprise partners.<br>
+        Samsung mobile phones have extra encryption circuitry embedded in their main chipsets; this feature is called "Samsung Knox".<br>
+        In order to interact with this hardware, Samsung provides a software kit called the Samsung Knox SDK, and enterprises/companies can partner with Samsung to purchase licenses for this SDK.<br>
+        I worked with the team that interacted with enterprise partners and businesses to develop + trouble-shoot their applications utilizing the SDK.
+      </p>
+      <p>
+        Some of the things that I did:
+      </p>
+      <ul>
+        <li>
+          Developed applications to implement Samsung Knox SDK features to mimic client applications and debug + accelerate partner's time to market
+        </li>
+        <li>
+          Wrote Python scripts to automate testing of the Knox Partner Program website
+        </li>
+        <li>
+          Used BeautifulSoup4, Selenium for script; it checked for dead links, etc
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <hr size='10' noshade>
+  
+  <div id='projects' class='section'>
+    <h3>Projects</h3>
+
+    <div id='raestro' class='projects'>
+      <h4>Raestro, v0.3.0</h4>
+      <h5>
+        A Rust-flavoured library for interacting with the 6-Channel Pololu Micro-Maestro Servo-Controller-Board<br>
+        <a href='https://github.com/BEARUBC/raestro'>https://github.com/BEARUBC/raestro</a><br>
+        <a href='https://crates.io/crates/raestro'>https://crates.io/crates/raestro</a>
+      </h5>
+      <p>
+        The Raestro project was born out of necessity, as most software tools/libraries are.<br>
+        In Jan 2021, the UBC Bionics Embedded Systems Team migrated over from C++ to Rust, on account of Rust's major safety guarantees.<br>
+        As migration ramped up and development of the robotic prosthetic arm continued, our team needed a library to communicate with an external servo controller board called the 6-channel Micro-Maestro.<br>
+        Unfortunately, given the relative 'newness' of Rust, its dependency ecosystem was still evolving and there existed no Rust library to communicate with a Maestro.<br>
+        So our team decided to bite the bullet and write our own library.
+      </p>
+      <p>
+        The Micro-Maestro uses UART serial pins to communicate with an external microcomputer.<br>
+        So using the UART GPIO pins on the Raspberry Pi 4 Model B (which was the main computer system onboard our robotic prosthesis), we connected that to the Maestro.<br>
+        This is where Raestro comes in; Raestro provides a dead-simple API to send protocols implementing the standardized Pololu protocol over UART serial.<br>
+        Essentially, all of that lower-level serial communications is neatly abstracted away into nice little API calls.<br>
+        This project was so helpful for us, we decided to release it as UBC Bionics' very first Open-Source-Software Project, licensed under the MIT OSS License!<br>
+        Up till today, Raestro is on version 0.3.0 and has over 80 downloads!
+      </p>
+      <p>
+        While being a wonderfully helpful OSS project and something that I'm proud of, Raestro also managed to teach me another thing:<br>
+        API Design.<br>
+        Yes, developing a library and constructing APIs for end-users to interact with is an art; it's not something easily tackle-able.<br>
+        Our team struggled for weeks on end just trying to solidify a design; we would always try to implement a design, but would end up asking ourselves "But wait, this design doesn't make sense", or "Oh shoot, we forgot about this crucial use-case".<br>
+        In the end though, it was a wonderful project to participate in developing, and it will always be marked as my first truly Open-Source-Software Project.<br>
+        Please check out the above links for more information on Raestro, and leave a star on the Github page!
+      </p>
+      <p>
+        As a final note, with regards to the name "Raestro", it is derived as a portmanteau of "Rust" and "Maestro".
+      </p>
+    </div>
+  
+    <hr>
+
+    <div id='async_framework' class='projects'>
+      <h4>AsyncFramework, v0.1.0</h4>
+      <h5>
+        A Rust-flavoured library for interacting with the 6-Channel Pololu Micro-Maestro Servo-Controller-Board<br>
+        <a href='https://github.com/BEARUBC/raestro'>https://github.com/BEARUBC/raestro</a>
+      </h5>
+      <p>
+        This is another OSS project that is currently in the works, but with this one being quite a bit more complex than the previous.<br>
+        The Embedded Systems Team at UBC Bionics was tasked with making the software running on board the Raspberry Pi with certain requirements for what it must do.<br>
+        It needed to contain a generalized "main loop", inside of which we could run some "checks" on the status of the arm, and update an internal "state-machine" accordingly.<br>
+        Now, the difference between writing a library and a framework is night and day - a library just contains some abstracted functions, whereas a framework is a generalized application into which you inject your specific functionalities.<br>
+        The difference is subtle but quite significant.
+      </p>
+      <p>
+        AsyncFramework is a multi-threaded, asynchronous (i.e., non-blocking) software framework.<br>
+        It contains the notion of "components" - essentially just structs that contain an asynchronous execution loop, an address to send messages to, and a "routine".<br>
+        A routine is essentially just an array of "jobs" (almost syntactic sugar for closures/lambdas, in our case) to run in an infinite loop.<br>
+        The way to work with AsyncFramework is to whip up a bunch of components, put the appropriate jobs in each of them, and pass each other's addresses around so that they can send messages to one another.
+      </p>
+      <p>
+        But what is the point of AsyncFramework?<br>
+        Well, the biggest advantage here are its async, multi-threaded components.<br>
+        Components are designed to be isolated!<br>
+        The effects of any critical failures in one will be mitigated across other threads, but more importantly, after catching any fatal crashes, the component can reboot.<br>
+        Components, while being isolated, can also communicate with one another using a custom data-type that the end-user designs!<br>
+        That means you can decide how messages will look and how to pass them around!<br>
+        And since each component contains an async loop, all message-handlers, jobs, etc., are run asynchronously.
+      </p>
+      <p>
+        The UBC Bionics Embedded Systems Team is hard at work releasing v0.1.0 of AsyncFramework, and we believe it has potential in many use-cases, not just bionic prostheses!<br>
+        Once again, for more information, please check out the above link, and leave a star!
+      </p>
+      <p>
+        Another final note:<br>
+        AsyncFramework is a terrible name, and will be soon updated to something more fun and catchy.
+      </p>
+    </div>
+  </div>
+  
+  <hr size='10' noshade>
+  
+  <div id='closing_remarks' class='section'>
+    <h3>Closing Remarks</h3>
+    <p>
+      I love rust-lang.<br>
+      I have never loved a language more than this one.<br>
+      Its wonderful type-inference system (including the fact that it's statically-typed) instantly hooked me.<br>
+      I then found out about enums, pattern matching, advanced scoping mechanisms, and a wonder memory-management system that eliminates memory-leaks, and I fell in love even more.<br>
+      And then I found out about cargo, and even though rust-crates are starting to suffer from npm-itis (i.e., overbloating dependencies), it still accelerates development tenfold.<br>
+      All in all, rust-lang just provides the convenience of higher-level languages with close benefits of lower-level languages (as well as additional safety guarantees).<br>
+      I want to spread the gospel of rust, and even though the language still has a long ways to grow, I truly wish for it to become the backbone of all major software in the future.<br>
+      Thanks for listening to my rant.
+    </p>
+  </div>
+  
+  <hr size='10' noshade>
+  
+  <div id='contact_information' class='section'>
+    <h3>
+      Contact Information
+    </h3>
+    <p>
+      Hopefully you've read through most of this site; if not, I hope I didn't bore you.<br>
+      If you would like, you can reach me through:
+      <ul>
+        <li>
+          email: rabhagat31@gmail.com
+        </li>
+        <li>
+          Linkedin: <a href='https://www.linkedin.com/in/raunakbhagat/'>https://www.linkedin.com/in/raunakbhagat/</a>
+        </li>
+        <li>
+          Github: <a href='https://github.com/raunakab'>https://github.com/raunakab</a>
+        </li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
