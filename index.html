@@ -95,21 +95,51 @@
         <h5>
           Lead Systems Software Engineer<br>
           Feb 2019 - Current<br>
-          <a href='https://ubcbionics.com/'>https://ubcbionics.com/</a>
+          <a href='https://ubcbionics.com/'>https://ubcbionics.com/</a><br>
+          <a href='https://github.com/BEARUBC'>https://github.com/BEARUBC</a>
         </h5>
       </div>
       <button type='button' class='collapsible'>More about UBC Bionics</button>
       <div id='ubc_bionics_synopsis' class='content'>
         <p>
-          todo!
+          UBC Bionics is a pure undergraduate, student-led engineering design team producing a robotic, prosthetic arm for patients with amputations or disabilities.<br>
+          We are leading research and development into producing a low-cost arm with functionalities similar to that of a real one.<br>
+          The team consists of 3 sub-teams: the mechanical engineering team, electrical engineering team, and software engineering team.<br>
+          The software engineering team is further split up into 2 subteams: the embedded systems team and the analytics team.<br>
+          The mechanical team is responsible for researching and developing the actual physical design of the arm.<br>
+          The electrical team designs the circuitry and integrates the electromyogram sensors into the arm's computer system.<br>
+          The embedded systems team write the software controlling the entire arm; in a sense, the team is writing a "pseudo-kernel" wrapping the main OS running on the arm.<br>
+          Lastly, the analytics team is writing the machine learning scripts running on the arm; these scripts are designed to take in the muscle contractions from the EMG sensors and classify them into distinct finger grips for the robotic finger digits to perform.<br>
+        </p>
+        <p>
+          Our team has worked very hard, and as a result of our dedication, we were selected to represent Canada at the 2020 Cybathlon held in Zurich, Switzerland!<br>
+          We were especially humbled to be selected for this prestigious competition given that our team was the only team comprised of undergraduate students!<br>
+          All other teams were either post-graduate teams or companies with dedicated professionals working for them.<br>
+          Unfortunately, this international competition was cancelled due to the COVID-19 pandemic.<br>
+          Regardless, our team has continued to perfect out initial design, and have come with v2.0 of our initial product.<br>
+          You can view our product and the teams dedicated to its design on our main homepage, linked above.
         </p>
       </div>
       <div id='ubc_bionics_contributions'>
         <p>
-          Some of the things that I have done so far:
+          Some of the things that I have done so far as the Embedded Systems Lead:
         </p>
         <ul>
-          <li>todo!</li>
+          <li>
+            Designing a "kernel wrapper", called the Grasp-Kernel-Wrapper (gkw) as the main systems software controlling the execution of the arm
+          </li>
+          <li>
+            Designed a multi-threaded, asynchronous, non-blocking execution framework called <a href='#async_framework'>AsyncFramework</a>
+          </li>
+          <li>
+            Designed a high-level Rust library (called <a href='#raestro'>Raestro</a>) to communicate with the 6-channel Micro-Maestro servo control board; this library has been officially released as an Open Source Software project licensed under the MIT OSS License, marking this as UBC Bionics' first (as well as my first) open source software project
+          </li>
+          <li>
+            Developed a CI/CD pipeline to instantly run all builds of the library or main-framework when pushed to Github
+          </li>
+          <li>
+            Introduced linters and coding-style configurations into the CI build process
+          </li>
         </ul>
       </div>
     </div>
