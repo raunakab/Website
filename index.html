@@ -95,7 +95,8 @@
         <h5>
           Lead Systems Software Engineer<br>
           Feb 2019 - Current<br>
-          <a href='https://ubcbionics.com/'>https://ubcbionics.com/</a>
+          <a href='https://ubcbionics.com/'>https://ubcbionics.com/</a><br>
+          <a href='https://github.com/BEARUBC'>https://github.com/BEARUBC</a>
         </h5>
       </div>
       <button type='button' class='collapsible'>More about UBC Bionics</button>
@@ -121,11 +122,23 @@
       </div>
       <div id='ubc_bionics_contributions'>
         <p>
-          Some of the things that I have done so far:
+          Some of the things that I have done so far as the Embedded Systems Lead:
         </p>
         <ul>
           <li>
-            Designing the main
+            Designing a "kernel wrapper", called the Grasp-Kernel-Wrapper (gkw) as the main systems software controlling the execution of the arm
+          </li>
+          <li>
+            Designed a multi-threaded, asynchronous, non-blocking execution framework called <a href='#async_framework'>AsyncFramework</a>
+          </li>
+          <li>
+            Designed a high-level Rust library (called <a href='#raestro'>Raestro</a>) to communicate with the 6-channel Micro-Maestro servo control board; this library has been officially released as an Open Source Software project licensed under the MIT OSS License, marking this as UBC Bionics' first (as well as my first) open source software project
+          </li>
+          <li>
+            Developed a CI/CD pipeline to instantly run all builds of the library or main-framework when pushed to Github
+          </li>
+          <li>
+            Introduced linters and coding-style configurations into the CI build process
           </li>
         </ul>
       </div>
